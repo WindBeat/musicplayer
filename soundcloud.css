@@ -48,3 +48,17 @@ table {
 }
 
 /* End of CSS Reset */
+
+a {
+	text-decoration: none;
+}
+
+li {
+
+	font-size: 20px;
+	background-color: grey;
+	height: 30px;
+	width: 150px;
+	border: 1px solid #33495D;
+	text-align: center;
+}
