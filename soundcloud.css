@@ -51,6 +51,10 @@ table {
 
 body {
 	background-image:url("http://fc05.deviantart.net/fs71/i/2013/218/c/f/music_bass___wallpaper_1920x1080_by_tobiasermisch-d6gx0ac.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 a {
