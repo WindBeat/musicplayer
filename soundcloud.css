@@ -62,6 +62,12 @@ a {
 	color: #00cc99;
 }
 
+ul {
+	padding-left:300px;
+	position: relative;
+	top: 100px;
+}
+
 li {
 
 	font-size: 20px;
@@ -80,4 +86,14 @@ h1{
 	text-align: center;
 	font-family: 'Boogaloo', cursive;
 	color: #00cc99;
+}
+
+#player{
+	position:relative;
+	float:right;
+	top: -175px;
+}
+
+#container{
+	width:1000px;
 }
