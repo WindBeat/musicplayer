@@ -63,9 +63,9 @@ a {
 }
 
 ul {
-	padding-left:300px;
-	position: relative;
-	top: 100px;
+	display: inline-block;
+	padding-right: 350px;
+	padding-top: 100px;
 }
 
 li {
@@ -94,7 +94,7 @@ h1{
 
 #player{
 	padding-left: 450px;
-	margin-top: -175px;
+	margin-top: -275px;
 }
 
 #container{
