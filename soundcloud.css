@@ -93,11 +93,10 @@ h1{
 }
 
 #player{
-	position:relative;
-	float:right;
-	top: -175px;
+	padding-left: 450px;
+	margin-top: -175px;
 }
 
 #container{
-	width:1000px;
+	text-align: center;
 }
