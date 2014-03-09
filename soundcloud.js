@@ -7,10 +7,9 @@ function playSomeMusic(myGenre) {
       var random = Math.floor(Math.random() * 49);
       var track_url = tracks[random].permalink_url;
       //Displays the sound player
-      SC.stream("/tracks/293", {auto_play: true}, function(sound) {
-    	sound.start();
-  });
-  
+      SC.oEmbed(track_url, {auto_play: true, color: "ff0066", maxheight: 130, maxwidth: 500, show_comments:false,},
+        document.getElementById("player"));
+      
       }
 );
 };
